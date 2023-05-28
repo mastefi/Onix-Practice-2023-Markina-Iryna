@@ -1,0 +1,27 @@
+/* Header */
+.header {
+	background: linear-gradient(180deg, #55C281 0%, #FFFFD2 100%);
+	padding: 120px;
+	text-align: left;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	&__title {
+		color: $color-black;
+		margin-bottom: 10px;
+	}
+
+	&__mini-text {
+		color: $color-black;
+		margin-bottom: 0;
+
+	}
+
+	img{
+		width: 27vw;
+		left: 50wv;
+		top: 13wv;
+		margin: 3vw;
+	}
+}
