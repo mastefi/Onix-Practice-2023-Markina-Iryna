@@ -1,0 +1,25 @@
+.footer {
+	background: linear-gradient(180deg, #55C281 0%, #FFFFD2 100%);
+	padding: 20px;
+	text-align: center;
+
+	&__links {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+	}
+
+	&__item {
+		margin: 10px;
+	}
+
+	&__link {
+		text-decoration: none;
+
+		&:hover {
+			color: $color-purple;
+		}
+	}
+}

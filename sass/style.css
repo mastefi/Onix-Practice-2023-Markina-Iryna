@@ -159,4 +159,26 @@ li {
 .section-working__description {
   font-size: 18px;
   margin-bottom: 0;
+}
+
+.footer {
+  background: linear-gradient(180deg, #55C281 0%, #FFFFD2 100%);
+  padding: 20px;
+  text-align: center;
+}
+.footer__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.footer__item {
+  margin: 10px;
+}
+.footer__link {
+  text-decoration: none;
+}
+.footer__link:hover {
+  color: #311eae;
 }/*# sourceMappingURL=style.css.map */
