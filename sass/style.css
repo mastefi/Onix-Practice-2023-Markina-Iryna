@@ -61,6 +61,10 @@ li {
   font-size: 1.6vw;
 }
 
+.section-description h2 {
+  font-size: 2vw;
+}
+
 .navigation {
   background-color: rgb(101, 99, 60);
   padding: 10px;
@@ -86,7 +90,6 @@ li {
   background-color: #fff9e6;
 }
 
-/* Header */
 .header {
   background: linear-gradient(180deg, #55C281 0%, #FFFFD2 100%);
   padding: 120px;
@@ -108,4 +111,29 @@ li {
   left: 50wv;
   top: 13wv;
   margin: 3vw;
+}
+
+.section-description {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, #FFFFD2 0.01%, #55C281 99.99%);
+  padding: 20px;
+}
+.section-description img {
+  width: 29vw;
+  left: 50wv;
+  top: 13wv;
+  margin: 4vw;
+}
+.section-description__content {
+  margin-right: 15vw;
+}
+.section-description__title {
+  margin-bottom: 5vw;
+}
+.section-description__description {
+  margin-right: 4vw;
+}
+.section-description ul, .section-description li {
+  list-style-type: square;
 }/*# sourceMappingURL=style.css.map */
