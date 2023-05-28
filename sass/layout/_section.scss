@@ -32,3 +32,25 @@
 	}
 }
 
+.section-working {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(180deg, #55C281 0%, #FFFFD2 100%);
+	padding: 20px;
+	height: 40vw;
+
+	&__content {
+		text-align: center;
+	}
+
+	&__title {
+		margin-bottom: 3vw;
+	}
+
+	&__description {
+		font-size: 18px;
+		margin-bottom: 0;
+	}
+}
+

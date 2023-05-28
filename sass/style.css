@@ -65,6 +65,10 @@ li {
   font-size: 2vw;
 }
 
+.section-working h2 {
+  font-size: 4vw;
+}
+
 .navigation {
   background-color: rgb(101, 99, 60);
   padding: 10px;
@@ -136,4 +140,23 @@ li {
 }
 .section-description ul, .section-description li {
   list-style-type: square;
+}
+
+.section-working {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #55C281 0%, #FFFFD2 100%);
+  padding: 20px;
+  height: 40vw;
+}
+.section-working__content {
+  text-align: center;
+}
+.section-working__title {
+  margin-bottom: 3vw;
+}
+.section-working__description {
+  font-size: 18px;
+  margin-bottom: 0;
 }/*# sourceMappingURL=style.css.map */
