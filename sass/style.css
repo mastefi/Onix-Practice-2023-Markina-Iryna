@@ -103,6 +103,7 @@ li {
   justify-content: space-around;
 }
 .header__title {
+  position: relative;
   color: #000;
   margin-bottom: 10px;
 }
@@ -116,6 +117,28 @@ li {
   top: 13wv;
   margin: 3vw;
 }
+@keyframes img {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
 
 .section-description {
   display: flex;
@@ -128,6 +151,11 @@ li {
   left: 50wv;
   top: 13wv;
   margin: 4vw;
+}
+.section-description img:hover {
+  animation: vibrate 0.5s;
+  transform: rotate(-25deg);
+  animation-iteration-count: infinite;
 }
 .section-description__content {
   margin-right: 15vw;

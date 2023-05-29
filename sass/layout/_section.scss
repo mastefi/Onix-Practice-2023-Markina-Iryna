@@ -10,7 +10,12 @@
 		left: 50wv;
 		top: 13wv;
 		margin: 4vw;
-		
+	}
+
+	img:hover {
+		animation: vibrate 0.5s;
+		transform: rotate(-25deg);
+		animation-iteration-count: infinite;
 	}
 
 	&__content {
